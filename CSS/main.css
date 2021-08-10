@@ -1,0 +1,52 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+input.case-input {
+    width: 4em;
+}
+
+#text blockquote {
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul#status {
+    width: max-content;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul#status li {
+    list-style-type: none;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+div#navsec {
+    width: max-content;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#declensions {
+    cursor: pointer;
+}
+
+input.case-input {
+    margin-left: .5em;
+}
+
+input.case-input.wrong {
+    border: 5px solid red;
+}
+
+input.case-input.correct {
+    border: 5px solid lightgreen;
+}
+

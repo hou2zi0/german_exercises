@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+    <link rel="stylesheet" href="./../CSS/main.css">
+    <title>Lückentext: Kasus</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Home</a>
+        <label for="modal-control" id="declensions">Declensions</label>
+
+            <input type="checkbox" id="modal-control" class="modal">
+            <div>
+            <div class="card">
+                <label for="modal-control" class="modal-close" ></label>
+                <h4 class="section">Declensions</h4>
+                <h4><mark class="tag">Masculine</mark></h4>
+                <table class="horizontal">
+                    <caption><small>Singular</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">der</td>
+                        <td data-label="Gen">des</td>
+                        <td data-label="Dat">dem</td>
+                        <td data-label="Akk">den</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="horizontal">
+                    <caption> <small>Plural</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">die</td>
+                        <td data-label="Gen">der</td>
+                        <td data-label="Dat">den</td>
+                        <td data-label="Akk">die</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <h4><mark class="tag secondary">Feminine</mark></h4>
+                  <table class="horizontal">
+                    <caption><small>Singular</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">die</td>
+                        <td data-label="Gen">der</td>
+                        <td data-label="Dat">der</td>
+                        <td data-label="Akk">die</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="horizontal">
+                    <caption><small>Plural</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">die</td>
+                        <td data-label="Gen">der</td>
+                        <td data-label="Dat">den</td>
+                        <td data-label="Akk">die</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <h4><mark class="tag tertiary">Neuter</mark></h4>
+                  <table class="horizontal">
+                    <caption><small>Singular</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">das</td>
+                        <td data-label="Gen">des</td>
+                        <td data-label="Dat">dem</td>
+                        <td data-label="Akk">das</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="horizontal">
+                    <caption><small>Plural</small></caption>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Gen</th>
+                        <th>Dat</th>
+                        <th>Akk</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Nom">die</td>
+                        <td data-label="Gen">der</td>
+                        <td data-label="Dat">den</td>
+                        <td data-label="Akk">die</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+            </div>
+            </div>
+      </header>
+    <div id="text" class="row">
+
+    </div>
+    <ul id="status" class="row"></ul>
+
+    <div class="row" id="navsec">
+        <button id="b">🡄</button>
+        <button id="f">🡆</button>
+    </div>
+    <div class="row" id="count">
+        1/X
+    </div>
+</body>
+<script src="./../JS/cases.js"></script>
+</html>

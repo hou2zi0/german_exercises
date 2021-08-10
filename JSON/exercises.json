@@ -1,0 +1,222 @@
+[
+    {
+        "text": "$01 Affe isst $02 Banane.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "die",
+                "genus": "f"
+            }
+        ]
+    },
+    {
+        "text": "$01 Maus rennt in $02 Haus.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "f"
+            },
+            {
+                "case": "akk",
+                "answer": "das",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "$01 Mann gibt $02 Kind $03 Buch.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "n"
+            },
+            {
+                "case": "akk",
+                "answer": "das",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "$01 Mann steht in $02 Haus.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "$01 Frau isst $02 Brötchen.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "f"
+            },
+            {
+                "case": "akk",
+                "answer": "das",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "Nachdem $01 Katze weggeht, kommt $02 Hund in $03 Raum.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "f"
+            },
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "den",
+                "genus": "m"
+            }
+        ]
+    },
+    {
+        "text": "Wenn $01 Vater Geld hat, dann kauft er $02 Brötchen für $03 Familie.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "die",
+                "genus": "n"
+            },
+            {
+                "case": "akk",
+                "answer": "die",
+                "genus": "f"
+            }
+        ]
+    },
+    {
+        "text": "Nach $01 Unwetter kam $02 Feuerwehr zu $03 Haus.",
+        "cases": [
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "n"
+            },
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "f"
+            },
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "$01 Bus fährt durch $02 Tunnel zu $03 See.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "den",
+                "genus": "m"
+            },
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "m"
+            }
+        ]
+    },
+    {
+        "text": "$01 Fische leben in $02 Fluss und fressen $03 Insekten.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "m"
+            },
+            {
+                "case": "dat",
+                "answer": "dem",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "die",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "$01 Junge grillt $02 Wurst und $03 Fleisch.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "der",
+                "genus": "m"
+            },
+            {
+                "case": "akk",
+                "answer": "die",
+                "genus": "f"
+            },
+            {
+                "case": "akk",
+                "answer": "das",
+                "genus": "n"
+            }
+        ]
+    },
+    {
+        "text": "Nachmittags gehen $01 Mädchen zusammen in $02 Kino, um $03 Film zu sehen.",
+        "cases": [
+            {
+                "case": "nom",
+                "answer": "die",
+                "genus": "n"
+            },
+            {
+                "case": "akk",
+                "answer": "das",
+                "genus": "n"
+            },
+            {
+                "case": "akk",
+                "answer": "den",
+                "genus": "m"
+            }
+        ]
+    }
+]
